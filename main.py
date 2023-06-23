@@ -1,5 +1,6 @@
 def script():
-  paises = input('Escriba una lista de paises separados por comas: ')
+  paises = input('Escriba una lista de paises separados por comas: '
+                 '\n')
 
   listaPaises = [pais for pais in paises.replace(" ", "").split(",")]
 
